@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 torchrun --nproc_per_node=8 main.py --model RepLKNet-31B --drop_path 0.5 --batch_size your_batch_size --lr 8e-3 --update_freq 4 --model_ema true --model_ema_eval true --warmup_epochs 10 --epochs 300
