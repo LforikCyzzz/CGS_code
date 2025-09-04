@@ -9,5 +9,5 @@ This repo is the official implementation of our paper "Group-Shared Low-Rank App
 To train a CGS model, run:
 
 ```bash
-bash 
+bash run_replknet.sh
 ```
